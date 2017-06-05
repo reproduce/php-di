@@ -1,0 +1,15 @@
+{
+    "name": "reproduce/phpdi",
+    "description": "PHP-DI issue reproduction",
+    "require": {
+        "php-di/php-di": "^6.0@alpha",
+        "doctrine/annotations": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ]
+}

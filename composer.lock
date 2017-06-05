@@ -173,16 +173,16 @@
         },
         {
             "name": "php-di/php-di",
-            "version": "6.0.0-alpha2",
+            "version": "6.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
-                "reference": "c2d4a52480446f8c235c10752ad7d1cc8cebb81a"
+                "reference": "ec4c132ebc9d5e2bad37006aa38d7c2f54819519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/c2d4a52480446f8c235c10752ad7d1cc8cebb81a",
-                "reference": "c2d4a52480446f8c235c10752ad7d1cc8cebb81a",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/ec4c132ebc9d5e2bad37006aa38d7c2f54819519",
+                "reference": "ec4c132ebc9d5e2bad37006aa38d7c2f54819519",
                 "shasum": ""
             },
             "require": {
@@ -210,10 +210,10 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "DI\\": "src/DI/"
+                    "DI\\": "src/"
                 },
                 "files": [
-                    "src/DI/functions.php"
+                    "src/functions.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -227,7 +227,7 @@
                 "dependency injection",
                 "di"
             ],
-            "time": "2017-06-04T10:42:20+00:00"
+            "time": "2017-06-05T12:26:46+00:00"
         },
         {
             "name": "php-di/phpdoc-reader",
